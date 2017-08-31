@@ -1,7 +1,6 @@
 # Freelancer Finances App
 
 -------------------------
-ABOUT
 The purpose of the app is to ease up the life for a freelancer that has to deal with bureaucracy. 
 Main goals:
 1. Track income
