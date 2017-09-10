@@ -1,4 +1,4 @@
-
+<!--
 <ul id="menu">
   <li v-for="item in items">
     <a href="index.php">{{ item.message }}</a>
@@ -17,3 +17,4 @@ var menu = new Vue({
   }
 })	
 </script>
+-->
