@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+
+
+html, body {
+  background-color: #456;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 28px;
+  
+  overflow: hidden;
+}
+
+header {
+  color: white;
+}
+
+
+
+article {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 15%;
+  overflow: auto;
+  border-left: 2px solid grey;
+  padding: 20px;
+}
+article > header {
+  height: 80px;
+  border-bottom: 2px solid grey;
+}
+article > header .title {
+  float: left;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+article > header .interval {
+  float: right;
+}
+article > header .interval ul {
+  padding: 0;
+  list-style: none;
+}
+article > header .interval ul li {
+  float: right;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 2px 10px;
+  margin: 0px 10px;
+}
+article > header .interval ul li.active {
+  background-color: #D3D3D3;
+  color: #202B33;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+article section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article section > header {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+article section .chart {
+  height: 300px; 
+}
+article section .inlineChart {
+  float: left;
+  width: 30%;
+  margin-bottom: 50px;
+}
+article section .inlineChart canvas {
+  float: left;
+}
+article section .inlineChart .info {
+  float: left;
+  padding-left: 20px;
+  padding-top: 16px;
+}
+article section .inlineChart .info .value {
+  font-size: 2.0em;
+  color: white;
+}
+article section table {
+  width: 100%;
+}
+article section table th, article section table td {
+  padding: 15px 0px;
+  border-bottom: 2px solid #2a3843;
+}
+article section table thead th {
+  text-align: left;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: white;
+}

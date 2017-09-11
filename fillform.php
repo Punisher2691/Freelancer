@@ -1,5 +1,5 @@
 <?php require('header.php'); ?>
-<?php require('menu.php'); ?>
+
 
 	    <style type="text/css">
             
@@ -33,7 +33,8 @@
             
             form {
                 background-color: #F1EFF7;
-                margin: 20px;
+                margin: auto;
+                width: 600px;
                 border-radius: 5px;
             }
             
@@ -46,11 +47,11 @@
       
 <?php
 
-if ( isset( $_POST["submitButton"] ) ) {
+/*if ( isset( $_POST["submitButton"] ) ) {
   processForm();
 } else {
   displayForm( array() );
-}
+}*/
 
 function validateField( $fieldName, $missingFields ) {
   if ( in_array( $fieldName, $missingFields ) ) {
@@ -108,7 +109,7 @@ function displayForm( $missingFields ) {
     <p></p>
     <?php } ?>
 
-    <form action="index.php" method="post" <?php if ($missingFields) { echo "class='animated jello'";}?>  >
+    <form action="" method="post" <?php if ($missingFields) { echo "class='animated jello'";}?>  >
       <section class="input-fields" >
 
         <label for="contractName"<?php validateField( "contractName", $missingFields ) ?>>Contract Name *</label><br/>
@@ -179,6 +180,16 @@ function debug_to_console( $data ) {
 }   
 
 function displayFormCompleted() {   
+    
+?> 
+     <i class="fa fa-check" aria-hidden="true"> Element was succesfully added</i>
+<style>
+    .fa {
+        color: #658F5D;
+    }
+</style>
+
+<?php
     debug_to_console("Element was added to the table");
     
 }
