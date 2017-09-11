@@ -10,3 +10,4 @@ Main goals:
 5. Check overview and history
 6. Calculate provided service price
 -------------------------
+NOTE: to start with run login.php first
