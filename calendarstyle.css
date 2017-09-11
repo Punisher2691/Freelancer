@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+h2 {
+	font-size: 40px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:red;
+}
+#calendar-section
+{
+	background-color: #2E9BDA;
+	font-size:20px;
+	text-align: center;
+	width: 600px;
+    margin: auto;
+	
+	
+}
+#time
+{
+	border:solid;
+	border-color:black;
+	border-width:2px;
+	display:block;
+	width:500px;
+	text-align: center;
+	padding:40px;
+	margin:0 auto;
+}
+#content
+{
+	text-align:  center;
+	width: 600px;
+	margin:auto;
+	height:150px;
+}
